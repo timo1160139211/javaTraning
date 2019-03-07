@@ -1,7 +1,10 @@
 eclipse.preferences.version=1
+encoding//src/site/gaoyisheng/BaseDataType/KeyWords.java=UTF-8
+encoding//src/site/gaoyisheng/BaseDataType/TypeLength.java=UTF-8
 encoding//src/site/gaoyisheng/Converter/ArrayToList.java=UTF-8
 encoding//src/site/gaoyisheng/Converter/ConverseInt.java=UTF-8
 encoding//src/site/gaoyisheng/Converter/InputStreamToString.java=UTF-8
+encoding//src/site/gaoyisheng/map/TestMap.java=UTF-8
 encoding//src/site/gaoyisheng/method/ClassMethod.java=UTF-8
 encoding//src/site/gaoyisheng/reflection/TestReflection.java=UTF-8
 encoding//src/site/gaoyisheng/testExtends/A.java=UTF-8
