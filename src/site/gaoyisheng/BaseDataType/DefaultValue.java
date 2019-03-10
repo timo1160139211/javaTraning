@@ -21,4 +21,23 @@ public class DefaultValue {
 	       // System.out.println(Paddy);
 	    }
 	    
+	    /*
+	     * 
+	     * boolean        false
+
+char              '/uoooo'(null)
+
+byte              (byte)0
+
+short             (short)0
+
+int                  0
+
+long               0L
+
+float               0.0f
+
+double           0.0d
+
+	     */
 }
