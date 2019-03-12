@@ -25,19 +25,19 @@ public class DefaultValue {
 	     * 
 	     * boolean        false
 
-char              '/uoooo'(null)
+			char             '/uoooo'(null)
 
-byte              (byte)0
+			byte             (byte)0
 
-short             (short)0
+			short            (short)0
 
-int                  0
+			int              0
 
-long               0L
+			long             0L
 
-float               0.0f
+			float            0.0f
 
-double           0.0d
+			double           0.0d
 
 	     */
 }
