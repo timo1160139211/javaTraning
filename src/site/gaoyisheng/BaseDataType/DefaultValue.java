@@ -23,7 +23,7 @@ public class DefaultValue {
 	    
 	    /*
 	     * 
-	     * boolean        false
+	     * boolean           false
 
 			char             '/uoooo'(null)
 
