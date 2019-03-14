@@ -12,7 +12,9 @@ public class ListContain {
 		}
 */
 		
+		int n = 25;
 		
+		System.out.println((n+7)/8<<3);
 		
 	}
 	

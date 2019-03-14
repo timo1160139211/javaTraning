@@ -40,4 +40,21 @@ public class DefaultValue {
 			double           0.0d
 
 	     */
+	    
+	    
+	    
+	    /*
+	     * 基本数据类型							包装类
+	     * 
+			byte							Byte
+			boolean							Boolean
+			short							Short
+			char							Character
+			int								Integer
+			long							Long
+			float							Float
+			double							Double
+	     * 
+	     * 
+	     */
 }

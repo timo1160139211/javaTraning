@@ -5,7 +5,7 @@ import java.io.Reader;
 
 public class InputStreamToString {
 	
-	//无外部引入库版将 is 转换为string
+	//锟斤拷锟解部锟斤拷锟斤拷锟芥将 is 转锟斤拷为string
 	@SuppressWarnings("resource")
 	static String convertStreamToString(java.io.InputStream is) {
 		  java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A"); 
