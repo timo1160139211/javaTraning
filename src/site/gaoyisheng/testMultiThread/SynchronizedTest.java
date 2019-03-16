@@ -38,17 +38,16 @@ public class SynchronizedTest {
     }
 
     public static void main(String[] args)  {
-    	SynchronizedTest synDemo = new SynchronizedTest();
+    	SynchronizedTest synTest = new SynchronizedTest();
     	//启动线程执行写操作
-    	synDemo.new ReadWriteThread(true).start();
-    	try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    	synTest.new ReadWriteThread(true).start();
+//    	try {
+//			Thread.sleep(1000);
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
     	//启动线程执行读操作
-    	synDemo.new ReadWriteThread(false).start();
+    	synTest.new ReadWriteThread(false).start();
     }
 }
 
