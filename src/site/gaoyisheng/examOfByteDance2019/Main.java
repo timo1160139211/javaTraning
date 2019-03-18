@@ -1,5 +1,6 @@
 package site.gaoyisheng.examOfByteDance2019;
 
+
 import java.util.Scanner;
 
 /*
@@ -83,20 +84,31 @@ public class Main {
         }
         //work
         
+    	String defaultEncoding = System.getProperty("file.encoding");
+        
+        System.setProperty("user.language", "en");
+        String defaultLnaguage = System.getProperty("user.language");
+        
+        System.out.println("System default encoding --- " + defaultEncoding);
+        System.out.println("System default language --- " + defaultLnaguage);
+ 
+        
         for(int i=0;i<n;i++){
         	
-        	char[] s = new char[strs[i].length()];
-        	s[strs[i].length()-1] = '\0';
-        	for(int kk = 0; kk<s.length;kk++) {
-        		s[kk] = 'a';
-        	}
-        	int len = 0;
-        	while(strs[i].length()>len) {
-        		s[len] = strs[i].charAt(len);
-        		len++;
-        	}
+
         	
-        	//char[] s = strs[i].toCharArray();
+//        	char[] s = new char[strs[i].length()];
+//        	s[strs[i].length()-1] = '\0';
+//        	for(int kk = 0; kk<s.length;kk++) {
+//        		s[kk] = 'a';
+//        	}
+//        	int len = 0;
+//        	while(strs[i].length()>len) {
+//        		s[len] = strs[i].charAt(len);
+//        		len++;
+//        	}
+//        	
+        	char[] s = strs[i].toCharArray();
         	
         	System.out.println(s.length + "\n  look:" + s.toString());
         	
