@@ -7,8 +7,10 @@ class MyThreadImp implements Runnable {
 	@Override
 	public void run() {
 		while(ticketsCount > 0) {
-			ticketsCount--;//如果还有票，则卖出1
-			System.out.println(Thread.currentThread().getName() + "卖了一张票，剩余票数为: "+ticketsCount);
+			//synchronized(this) {
+				ticketsCount--;//如果还有票，则卖出1
+				System.out.println(Thread.currentThread().getName() + "卖了一张票，剩余票数为: "+ticketsCount);
+			//} ??????
 		}
 	}
 	
