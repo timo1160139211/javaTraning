@@ -1,6 +1,6 @@
 package site.gaoyisheng.aimToOffer;
 
-public class Q8_Jumpfloor {
+public class Q08_Jumpfloor {
 	static int[] fibArry = { 0, 1, 2 };
 	public static void main(String[] args) {
 			System.out.println( ":" + JumpFloor(3));

@@ -1,6 +1,6 @@
 package site.gaoyisheng.aimToOffer;
 
-public class Q6_MinNumberInRotateArray {
+public class Q06_MinNumberInRotateArray {
 
 	public static void main(String[] args) {
 

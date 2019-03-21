@@ -2,7 +2,7 @@ package site.gaoyisheng.aimToOffer;
 
 import java.util.Stack;
 
-public class Q5_TwoStackReplaceQueue {
+public class Q05_TwoStackReplaceQueue {
 
     static Stack<Integer> stack1 = new Stack<Integer>();
     static Stack<Integer> stack2 = new Stack<Integer>();

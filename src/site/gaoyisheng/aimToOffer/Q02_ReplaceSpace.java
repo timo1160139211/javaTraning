@@ -1,6 +1,6 @@
 package site.gaoyisheng.aimToOffer;
 
-public class Q2_ReplaceSpace {
+public class Q02_ReplaceSpace {
 
 	public static void main(String[] args) {
 		System.out.println(replaceSpace(new StringBuffer("we are happy.")));

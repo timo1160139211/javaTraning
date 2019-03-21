@@ -1,6 +1,6 @@
 package site.gaoyisheng.aimToOffer;
 
-public class Q1_FindTargetIn2DArray {
+public class Q01_FindTargetIn2DArray {
 	
 	public static void main(String[] args) {
 		

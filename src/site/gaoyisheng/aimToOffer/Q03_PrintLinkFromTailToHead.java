@@ -3,7 +3,7 @@ package site.gaoyisheng.aimToOffer;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Q3_PrintLinkFromTailToHead {
+public class Q03_PrintLinkFromTailToHead {
 
 	public static void main(String[] args) {
 		
