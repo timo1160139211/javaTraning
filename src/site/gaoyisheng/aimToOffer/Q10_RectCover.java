@@ -2,14 +2,14 @@ package site.gaoyisheng.aimToOffer;
 
 public class Q10_RectCover {
 
+	static int fib[] = {0,1,2};
 	public static void main(String[] args) {
-		
+		System.out.println(RectCover(8));
 	}
 
-    public int RectCover(int target) {
-        
-    	
-    	return 0;
+    public static int RectCover(int target) {
+        if(target <= 2)	return fib[target];
+        else	return RectCover(target - 1) + RectCover(target - 2);
     }
 }
 
