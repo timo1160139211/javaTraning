@@ -1,4 +1,4 @@
-package site.gaoyisheng.aimToOffer;
+package site.gaoyisheng.aimToOffer66;
 
 public class Q06_MinNumberInRotateArray {
 

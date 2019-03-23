@@ -1,4 +1,4 @@
-package site.gaoyisheng.aimToOffer;
+package site.gaoyisheng.aimToOffer66;
 
 public class ListNode{
 
@@ -9,8 +9,7 @@ public class ListNode{
 		this.val = 0;
 		next = null;
 	}
-	
-	
+
 	public ListNode(int i) {
 		this.val = i;
 		next = null;
@@ -20,7 +19,12 @@ public class ListNode{
 		this.val = i;
 		this.next = n;
 	}
-	
+
+	public ListNode(ListNode ln){
+		this.val = ln.val;
+		this.next = ln.next;
+	}
+
 	public ListNode link(ListNode l) {
 		this.next = l;
 		return l;

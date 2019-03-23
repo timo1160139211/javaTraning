@@ -1,4 +1,4 @@
-package site.gaoyisheng.aimToOffer;
+package site.gaoyisheng.aimToOffer66;
 
 public class Q08_Jumpfloor {
 	static int[] fibArry = { 0, 1, 2 };

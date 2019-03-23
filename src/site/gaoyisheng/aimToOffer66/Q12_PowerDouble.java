@@ -1,10 +1,9 @@
-package site.gaoyisheng.aimToOffer;
+package site.gaoyisheng.aimToOffer66;
 
 import java.lang.Math;
 public class Q12_PowerDouble {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Math.pow(2,2);
 		//System.out.println(Powerz(3.14,2));
 		System.out.println("运算结果 : \t " + Power0(15,9));

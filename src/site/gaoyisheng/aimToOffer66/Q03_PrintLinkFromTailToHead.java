@@ -1,4 +1,4 @@
-package site.gaoyisheng.aimToOffer;
+package site.gaoyisheng.aimToOffer66;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,9 +8,8 @@ public class Q03_PrintLinkFromTailToHead {
 	public static void main(String[] args) {
 		
 		ListNode ln = new ListNode(0);
-		
 		ListNode tmp = ln;
-		for(int i = 1; i < 20; i++) {
+		for(int i = 1; i < 30; i++) {
 			tmp = tmp.link(new ListNode(i));
 		}
 		
@@ -36,11 +35,11 @@ public class Q03_PrintLinkFromTailToHead {
 }
 
 /**
-
-Q:
-输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
-
-
-A:
-
-*/
+ *
+ *
+ * Q:
+ * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
+ *
+ * A:
+ *
+ */
