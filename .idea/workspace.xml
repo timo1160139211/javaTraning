@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21670123-f60e-40f7-bf3f-d47e9919f382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q16_MergeTwoSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q17_HasSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q18_MirrorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q19_PrintMatrixCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q16_MergeTwoSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q16_MergeTwoSortedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,19 +19,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q15_ReverseLink.java">
+        <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q18_MirrorTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="242">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q17_HasSubTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="35" selection-start-line="35" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q16_MergeTwoSortedList.java">
+        <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q19_PrintMatrixCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -47,15 +60,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q15_ReverseLink.java" />
         <option value="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q16_MergeTwoSortedList.java" />
+        <option value="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q17_HasSubTree.java" />
+        <option value="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q18_MirrorTree.java" />
+        <option value="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q19_PrintMatrixCircle.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="63" />
-    <option name="y" value="63" />
-    <option name="width" value="1279" />
-    <option name="height" value="701" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="27" />
+    <option name="width" value="1165" />
+    <option name="height" value="660" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,6 +83,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,14 +114,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553523829636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553576236921" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -129,16 +147,19 @@
       <workItem from="1553484070428" duration="188000" />
       <workItem from="1553492775651" duration="948000" />
       <workItem from="1553522520257" duration="1311000" />
+      <workItem from="1553523862825" duration="503000" />
+      <workItem from="1553566656430" duration="6525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2447000" />
+    <option name="totallyTimeSpent" value="9475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="63" width="1279" height="701" extended-state="0" />
+    <frame x="63" y="27" width="1303" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.261924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26486915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -157,7 +178,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32933104" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32102728" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -173,17 +194,49 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q15_ReverseLink.java">
+    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q16_MergeTwoSortedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="220">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q16_MergeTwoSortedList.java">
+    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="197">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q15_ReverseLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="40" selection-start-line="40" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q18_MirrorTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q17_HasSubTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="35" selection-start-line="35" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Q19_PrintMatrixCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

@@ -35,6 +35,6 @@ public class Q16_MergeTwoSortedList {
  * 1递归解决，
  *
  * 2循环解决。
- *
+ *  两个指针扫描即可。
  *
  */
