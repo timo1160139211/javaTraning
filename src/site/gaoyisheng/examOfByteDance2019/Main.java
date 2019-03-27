@@ -3,7 +3,6 @@ package site.gaoyisheng.examOfByteDance2019;
 
 import java.util.Scanner;
 
-/*
 //小孩分糖问题
 public class Main {
     public static void main(String[] args) {
@@ -69,8 +68,8 @@ public class Main {
     }
 }
 
-*/
 
+/*
 public class Main {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);

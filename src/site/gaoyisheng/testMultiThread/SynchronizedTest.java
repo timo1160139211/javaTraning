@@ -41,11 +41,11 @@ public class SynchronizedTest {
     	SynchronizedTest synTest = new SynchronizedTest();
     	//启动线程执行写操作
     	synTest.new ReadWriteThread(true).start();
-//    	try {
-//			Thread.sleep(1000);
-//		} catch (InterruptedException e) {
-//			e.printStackTrace();
-//		}
+    	try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
     	//启动线程执行读操作
     	synTest.new ReadWriteThread(false).start();
     }
