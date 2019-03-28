@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21670123-f60e-40f7-bf3f-d47e9919f382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/ExamOfTongCheng/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/aimToOffer66/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/gaoyisheng/testMultiThread/ThreadRunInOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gaoyisheng/examOfByteDance2019/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gaoyisheng/examOfByteDance2019/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gaoyisheng/testMultiThread/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gaoyisheng/testMultiThread/SynchronizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/testMultiThread/ThreadRunInOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1188">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -60,12 +52,12 @@
         <option value="$PROJECT_DIR$/src/site/gaoyisheng/testMultiThread/SynchronizedTest.java" />
         <option value="$PROJECT_DIR$/src/site/gaoyisheng/examOfByteDance2019/Main.java" />
         <option value="$PROJECT_DIR$/src/site/gaoyisheng/ExamOfTongCheng/Main.java" />
-        <option value="$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java" />
         <option value="$PROJECT_DIR$/src/site/gaoyisheng/testMultiThread/ThreadRunInOrder.java" />
+        <option value="$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="63" />
     <option name="y" value="27" />
     <option name="width" value="1303" />
@@ -102,7 +94,7 @@
               <item name="javaTraning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gaoyisheng" type="462c0819:PsiDirectoryNode" />
-              <item name="testMultiThread" type="462c0819:PsiDirectoryNode" />
+              <item name="lockAndThread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -115,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553695093196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553775993172" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -194,18 +186,21 @@
       <workItem from="1553523862825" duration="503000" />
       <workItem from="1553566656430" duration="6525000" />
       <workItem from="1553597723826" duration="1941000" />
-      <workItem from="1553661196702" duration="11595000" />
+      <workItem from="1553661196702" duration="13085000" />
+      <workItem from="1553739763545" duration="2464000" />
+      <workItem from="1553771217626" duration="1827000" />
+      <workItem from="1553781868401" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23011000" />
+    <option name="totallyTimeSpent" value="28813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="27" width="1303" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21411578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30689928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -215,7 +210,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.27676448" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.555115" visible="true" weight="0.12560387" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.555115" weight="0.25603864" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,13 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/currentJDK/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -344,13 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/currentJDK/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="161" column="5" lean-forward="true" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -382,11 +363,18 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.1" x="213.5909090909091" y="186.22727272727275" />
+          <settings layout="Hierarchic Group" zoom="1.1" x="214.0" y="186.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/currentJDK/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="140" column="19" lean-forward="true" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -409,20 +397,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/currentJDK/src.zip!/java/util/Queue.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/currentJDK/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="140" column="19" lean-forward="true" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+        <state relative-caret-position="348">
+          <caret line="138" column="7" lean-forward="true" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/currentJDK/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="707" column="47" lean-forward="true" selection-start-line="707" selection-start-column="47" selection-end-line="707" selection-end-column="47" />
+          <folding>
+            <element signature="e#29802#29803#0" expanded="true" />
+            <element signature="e#29841#29842#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/testMultiThread/ThreadRunInOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="242">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
