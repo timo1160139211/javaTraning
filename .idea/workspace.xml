@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21670123-f60e-40f7-bf3f-d47e9919f382" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -17,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="417">
+              <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,10 +57,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="27" />
-    <option name="width" value="1303" />
-    <option name="height" value="741" />
+    <option name="x" value="66" />
+    <option name="y" value="55" />
+    <option name="width" value="1059" />
+    <option name="height" value="664" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -71,6 +70,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,36 +78,17 @@
               <item name="javaTraning" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaTraning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaTraning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaTraning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaTraning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaTraning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoyisheng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaTraning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaTraning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoyisheng" type="462c0819:PsiDirectoryNode" />
-              <item name="lockAndThread" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553775993172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553864911746" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -122,7 +103,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadRunInOrder">
+  <component name="RunManager" selected="Application.DeadLockDemo">
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.gaoyisheng.lockAndThread.DeadLockDemo" />
+      <module name="javaTraning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.gaoyisheng.lockAndThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.gaoyisheng.ExamOfTongCheng.Main" />
       <module name="javaTraning" />
@@ -164,6 +158,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.ThreadRunInOrder" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -190,17 +185,18 @@
       <workItem from="1553739763545" duration="2464000" />
       <workItem from="1553771217626" duration="1827000" />
       <workItem from="1553781868401" duration="21000" />
+      <workItem from="1553819685944" duration="8060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28813000" />
+    <option name="totallyTimeSpent" value="36873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="27" width="1303" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30689928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10388581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -210,7 +206,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.27676448" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.555115" weight="0.25603864" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55432373" weight="0.14009662" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,7 +215,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.44488502" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.44617093" side_tool="true" weight="0.5441176" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/site/gaoyisheng/lockAndThread/DeadLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="417">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
         </state>
       </provider>
     </entry>
