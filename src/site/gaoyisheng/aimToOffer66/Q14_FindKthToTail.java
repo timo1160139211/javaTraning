@@ -44,8 +44,8 @@ public class Q14_FindKthToTail {
     		q = q.next;
     		lastK = lastK.next;
     	}
-    	
-    	if(k>0) {//当k超过链表长度时，即没有倒数第k个，   while()退出条件时 
+		//当k超过链表长度时，即没有倒数第k个，   while()退出条件时
+    	if(k>0) {
     		return null;
     	}
     	return lastK;
