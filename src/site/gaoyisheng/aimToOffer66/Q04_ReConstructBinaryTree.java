@@ -80,5 +80,18 @@ public class Q04_ReConstructBinaryTree {
  * 然后递归求解，直到startPre>endPre||startIn>endIn说明子树整理完到。
  * 方法每次返回左子树活右子树的根节点
  *
+ *      A
+ *    B/ \C
+ *  D/\E F/\G
+ *
+ *  0 1 2 3 4 5 6
+ *  A/B D E/C F G
+ * /D B E/A F C G
+ *       i=3
+ *  preStart = 0;
+ *  preEnd = length - 1;
+ *
+ *  inStart = 0;
+ *  inEnd = length - 1;
  *
  */
