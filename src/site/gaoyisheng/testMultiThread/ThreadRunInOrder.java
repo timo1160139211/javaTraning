@@ -1,10 +1,7 @@
 package site.gaoyisheng.testMultiThread;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Queue;
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ThreadRunInOrder {
 

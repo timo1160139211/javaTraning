@@ -14,6 +14,8 @@ package site.gaoyisheng.aimToOffer66;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 /**
  * 〈一句话功能简述〉<br> 
  * 〈junit test centre〉
@@ -24,23 +26,35 @@ import org.junit.Test;
  */
 
 public class TestCentre {
-    final int TIMES = 10;
-    ListNode ln;
+    final static int TIMES = 10;
+    static ListNode ln;
+    static TreeNode root;
 
 
     @BeforeClass
-    public void start() throws  Exception {
-        constructLink();
-        constructTree();
+    public static void start() throws  Exception {
+        establishLink();
+        establishTree();
     }
 
     @Test
-    public void testQ(){
+    public void testQ22(){
 
+        ArrayList<Integer> list = new Q22_PrintTreeFromTopToBottom().PrintFromTopToBottom(root);
+
+        for (Integer integer : list) {
+            System.out.println(integer);
+        }
+
+//        ArrayList<Integer> exp = new ArrayList<>();
+//        exp.add(0);
+//        exp.add(1);
+//        exp.add(2);
+//        assertEquals(exp,list);
     }
 
 
-    private void constructLink(){
+    private static void establishLink(){
         System.out.println("创建测试链表");
 
         ln= new ListNode(0);
@@ -54,10 +68,15 @@ public class TestCentre {
         System.out.println("创建完成");
     }
 
-    private void constructTree(){
-        System.out.println("创建测试链表");
+    private static void establishTree(){
+        System.out.println("创建测试树");
+
+        root = new TreeNode(0);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(2);
 
 
-        System.out.println("创建完成");
+
+        System.out.println("创建测试树完成");
     }
 }
