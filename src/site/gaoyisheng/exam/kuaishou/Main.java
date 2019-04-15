@@ -1,4 +1,4 @@
-package site.gaoyisheng.exam.shenceData.kuaishou;
+package site.gaoyisheng.exam.kuaishou;
 
 
 import java.util.ArrayList;
